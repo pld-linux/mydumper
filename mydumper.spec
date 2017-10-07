@@ -6,7 +6,7 @@
 Summary:	MySQL Data Dumper
 Name:		mydumper
 Version:	0.9.3
-Release:	0.1
+Release:	1
 License:	GPL v3
 Group:		Applications/Databases
 Source0:	https://github.com/maxbube/mydumper/archive/v%{version}/%{name}-%{version}.tar.gz
@@ -14,9 +14,11 @@ Source0:	https://github.com/maxbube/mydumper/archive/v%{version}/%{name}-%{versi
 URL:		https://github.com/maxbube/mydumper
 BuildRequires:	cmake
 BuildRequires:	glib2-devel
+BuildRequires:	libstdc++-devel
 BuildRequires:	mysql-devel
 BuildRequires:	openssl-devel
 BuildRequires:	pcre-devel
+BuildRequires:	pkgconfig
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
