@@ -6,7 +6,7 @@
 Summary:	MySQL Data Dumper
 Name:		mydumper
 Version:	0.9.3
-Release:	1
+Release:	2
 License:	GPL v3
 Group:		Applications/Databases
 Source0:	https://github.com/maxbube/mydumper/archive/v%{version}/%{name}-%{version}.tar.gz
